@@ -1,0 +1,3 @@
+unit/br/com/gabriel/math/SimpleCalcsTest.class
+functional/stepdef/calculadora/soma/SomaStepDef.class
+functional/featureRunner/calculadora/soma_subtracao/SomaTest.class
