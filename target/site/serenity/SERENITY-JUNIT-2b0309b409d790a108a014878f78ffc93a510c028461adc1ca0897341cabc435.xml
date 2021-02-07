@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Testar Biblioteca REST do Serenity no httpbin.org" skipped="0" tests="1" time="2.49" timestamp="2021-02-07 08:49:32"><testcase name="Validar resposta GET"/></testsuite>

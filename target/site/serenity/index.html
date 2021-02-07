@@ -198,7 +198,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-02-2021 21:39</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 07-02-2021 21:49</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -213,7 +213,7 @@
                         <td width="375px" valign="top">
                             <div class="test-count-summary">
                                 <div class="test-count-title">
-                                    4 test scenarios 
+                                    5 test scenarios 
                                         (including 4 rows of test data)
                                     
 
@@ -229,6 +229,10 @@
                                         <a data-toggle="tab" href="#tests"><i class="fas fa-tachometer-alt"></i> Test
                                             Results</a>
                                     </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#evidence"><i class="far fa-file"></i>
+                                                Evidence</a>
+                                        </li>
                                 </ul>
 
 
@@ -244,10 +248,10 @@
                                                             </div>
                                                             <script>
 
-                                                                var labels = [' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '100%', ' ', ' ', ' '];
+                                                                var labels = ['20%', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', ' ', '80%', ' ', ' ', ' '];
                                                                 // Our series array that contains series objects or in this case series data arrays
 
-                                                                var series = [{meta: 'Passing tests (automated)', value: 0}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 4}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
+                                                                var series = [{meta: 'Passing tests (automated)', value: 1}, {meta: 'Passing tests (manual)', value: 0}, {meta: 'Pending tests (automated)', value: 0}, {meta: 'Pending tests (manual)', value: 0}, {meta: 'Ignored tests (automated)', value: 0}, {meta: 'Ignored tests (manual)', value: 0}, {meta: 'Skipped tests (automated)', value: 0}, {meta: 'Skipped tests (manual)', value: 0}, {meta: 'Failing tests (automated)', value: 0}, {meta: 'Failing tests (manual)', value: 0}, {meta: 'Broken tests (automated)', value: 4}, {meta: 'Broken tests (manual)', value: 0}, {meta: 'Compromised tests (automated)', value: 0}, {meta: 'Compromised tests (manual)', value: 0}];
 
                                                                 // As options we currently only set a static size of 300x200 px. We can also omit this and use aspect ratio containers
                                                                 // as you saw in the previous example
@@ -302,11 +306,12 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                    <td class="aggregate-result-count"><i
-                                                                                class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing
+                                                                    <td class="aggregate-result-count">
+                                                                        <a href="01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html"><i
+                                                                                    class='fa fa-check-circle-o success-icon'></i>&nbsp;Passing</a>
                                                                     </td>
-                                                                <td class="automated-stats">0</td>
-                                                                <td class="automated-stats"> </td>
+                                                                <td class="automated-stats">1</td>
+                                                                <td class="automated-stats">20%</td>
                                                             </tr>
                                                             <tr>
                                                                     <td class="aggregate-result-count"><i
@@ -348,7 +353,7 @@
                                                                                     class='fa fa-exclamation-triangle error-icon'></i>&nbsp;Broken</a>
                                                                     </td>
                                                                 <td class="automated-stats">4</td>
-                                                                <td class="automated-stats">100%</td>
+                                                                <td class="automated-stats">80%</td>
                                                             <tr>
                                                                     <td class="aggregate-result-count indented-error-category">
                                                                         <i
@@ -359,7 +364,7 @@
                                                             </tr>
                                                             <tr class="summary-stats">
                                                                 <td class="aggregate-result-count">Total</td>
-                                                                <td class="automated-stats">4</td>
+                                                                <td class="automated-stats">5</td>
                                                                 <td class="automated-stats"></td>
                                                             </tr>
                                                             </tbody>
@@ -381,11 +386,11 @@
                                                             </thead>
                                                             <tbody>
                                                             <tr>
-                                                                <td>256ms</td>
-                                                                <td>0ms</td>
-                                                                <td>18ms</td>
-                                                                <td>58ms</td>
-                                                                <td>256ms</td>
+                                                                <td>2s</td>
+                                                                <td>26ms</td>
+                                                                <td>15ms</td>
+                                                                <td>2s</td>
+                                                                <td>1s</td>
                                                             </tr>
                                                             </tbody>
                                                         </table>
@@ -412,7 +417,29 @@
                                                                         <tbody>
                                                                             <tr>
                                                                                 <td>
-                                                                                        <a href="c33a0c311bc09ab93988c8aa81b5e47b9cda75a46d6bd81c40adbf462452315f.html">: Soma</a>
+                                                                                        <a href="37d4421095200d3597d60f19b7e28b8da79c6a99ad76f7103b813e7eec109ae1.html">Testar Biblioteca REST do Serenity no httpbin.org</a>
+                                                                                </td>
+                                                                                <td>1</td>
+                                                                                <td>100%</td>
+                                                                                <td>
+                                                                                        <a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a>
+                                                                                </td>
+                                                                                <td>
+                                                                                    <div class="progress">
+                                                                                            <div class="progress-bar"
+                                                                                                 role="progressbar"
+                                                                                                 style="width: 100%; background-color: #30cb23"
+                                                                                                 aria-valuenow="1"
+                                                                                                 title="100% success"
+                                                                                                 aria-valuemin="0"
+                                                                                                 aria-valuemax="100">
+                                                                                            </div>
+                                                                                    </div>
+                                                                                </td>
+                                                                            </tr>
+                                                                            <tr>
+                                                                                <td>
+                                                                                        <a href="64592533efbc9d0a681bf08d1208c4673aefc312ec1a1d0f54d50b191a2a5c8c.html">Soma</a>
                                                                                 </td>
                                                                                 <td>4</td>
                                                                                 <td>0%</td>
@@ -464,7 +491,7 @@
                                                                 <tbody>
                                                                     <tr>
                                                                         <td class="failure-color top-list-title"><a
-                                                                                    href="c33a0c311bc09ab93988c8aa81b5e47b9cda75a46d6bd81c40adbf462452315f.html">: Soma</a>
+                                                                                    href="64592533efbc9d0a681bf08d1208c4673aefc312ec1a1d0f54d50b191a2a5c8c.html">Soma</a>
                                                                         </td>
                                                                         <td><span
                                                                                     class="badge failure-badge">25%</span>
@@ -475,6 +502,23 @@
                                                         </div>
                                                     </div>
 
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3>Tags</h3>
+
+                                                                <div class="card">
+                                                                    <div class="card-body">
+                                                                        <div>
+                                                                                <a href="03c38abc150ec1d5070f58913415ff083b86c70994705a423d87e59bdc0f9a7e.html">
+                                                                        <span class="badge"
+                                                                              style="background-color:#1D9918; margin:1em;padding:4px;"><i
+                                                                                    class="fa fa-tag"></i> API&nbsp;&nbsp;&nbsp;1</span>
+                                                                                </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                        </div>
+                                                    </div>
                                             </div>
                                         </div>
                                         <div id="tests" class="tab-pane fade">
@@ -496,17 +540,31 @@
                                                                 </tr>
                                                                 </thead>
                                                                 <tbody>
-                                                                    <tr class="scenario-result ERROR">
+                                                                    <tr class="scenario-result SUCCESS">
                                                                         <td>
-                                                                                <a href="c33a0c311bc09ab93988c8aa81b5e47b9cda75a46d6bd81c40adbf462452315f.html">: Soma</a>
+                                                                                <a href="37d4421095200d3597d60f19b7e28b8da79c6a99ad76f7103b813e7eec109ae1.html">Testar Biblioteca REST do Serenity no httpbin.org</a>
                                                                         </td>
                                                                         <td>
-                                                                            <a href="a8f29b54e97bf17f05e7dce2d3665b89546f716f1c2ab0de0867738049e86248.html">: Deve ser capaz de realizar operacoes de soma com dois numeros</a>
+                                                                            <a href="2b0309b409d790a108a014878f78ffc93a510c028461adc1ca0897341cabc435.html">Validar resposta GET</a>
+                                                                        </td>
+                                                                        <td>4</td>
+                                                                        <td>20:49:32</td>
+                                                                        <td>2s 491ms</td>
+                                                                        <td><a href='##beforetable'><i class='fa fa-check-circle-o success-icon ' title='SUCCESS'></i></a> <span
+                                                                                    style="display:none">SUCCESS</span>
+                                                                        </td>
+                                                                    </tr>
+                                                                    <tr class="scenario-result ERROR">
+                                                                        <td>
+                                                                                <a href="64592533efbc9d0a681bf08d1208c4673aefc312ec1a1d0f54d50b191a2a5c8c.html">Soma</a>
+                                                                        </td>
+                                                                        <td>
+                                                                            <a href="01437b7fc784f37607db8a5f963e007e301dce2651ddcda343a0ac1a55f76cea.html">: Deve ser capaz de realizar operacoes de soma com dois numeros</a>
                                                                                 (4 examples)
                                                                         </td>
                                                                         <td>3</td>
-                                                                        <td>20:39:56</td>
-                                                                        <td>256ms</td>
+                                                                        <td>20:49:32</td>
+                                                                        <td>293ms</td>
                                                                         <td><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></a> <span
                                                                                     style="display:none">ERROR</span>
                                                                         </td>
@@ -528,6 +586,36 @@
                                             </div>
                                         </div>
 
+                                            <div id="evidence" class="tab-pane fade">
+                                                <div class="container-fluid">
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+                                                            <h3><i class="far fa-file"></i> Evidence</h3>
+                                                            <table id="evidence-table" class="table table-bordered">
+                                                                <thead>
+                                                                <tr>
+                                                                    <th>Scenario</th>
+                                                                    <th>Title</th>
+                                                                    <th>Details</th>
+                                                                </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>Validar resposta GET</td>
+                                                                        <td>Java Object to JSON</td>
+                                                                        <td><a role='button' class='btn btn-success btn-sm' href='2b0309b409d790a108a014878f78ffc93a510c028461adc1ca0897341cabc435.html#report-data-4af470e3-0006-4415-9023-df74ad710575'><i class="fas fa-external-link-alt"></i>&nbsp;Details</a></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>Validar resposta GET</td>
+                                                                        <td>Java Object</td>
+                                                                        <td><a role='button' class='btn btn-success btn-sm' href='2b0309b409d790a108a014878f78ffc93a510c028461adc1ca0897341cabc435.html#report-data-1df2dcd4-1745-4549-ade3-7298c118d966'><i class="fas fa-external-link-alt"></i>&nbsp;Details</a></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
                                     </div>
                                 </div>
                             </div>

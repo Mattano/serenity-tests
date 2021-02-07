@@ -1,3 +1,8 @@
+functional/featureRunner/calculadora/api/HttpBinIT.class
+dto/HttpBinDto.class
 unit/br/com/gabriel/math/SimpleCalcsTest.class
 functional/stepdef/calculadora/soma/SomaStepDef.class
-functional/featureRunner/calculadora/soma_subtracao/SomaTest.class
+functional/featureRunner/calculadora/soma_subtracao/SomaIT.class
+dto/JsonDto.class
+functional/steps/ApiSteps.class
+functional/stepdef/calculadora/api/HttpBinStepDef.class

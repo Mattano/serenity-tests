@@ -1,5 +1,5 @@
 #language: pt
-Funcionalidade: : Soma
+Funcionalidade: Soma
 
   Eu como usuário, desejo utilizar as operações de soma para realizar o calculo do dia a dia
 
