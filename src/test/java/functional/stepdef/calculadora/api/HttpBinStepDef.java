@@ -61,4 +61,19 @@ public class HttpBinStepDef {
         }
         api.validarCorpo(response,chave);
     }
+
+    @Dado("um usuario autenticado")
+    public void umUsuarioAutenticado() {
+        throw new NotImplementedException("Implement this first!");
+    }
+
+    @Quando("eu acesso um recurso protegido")
+    public void euAcessoUmRecursoProtegido() {
+        throw new NotImplementedException("Implement this first!");
+    }
+
+    @Entao("obtenho autorizacao pelo sistema de autenticacao")
+    public void obtenhoAutorizacaoPeloSistemaDeAutenticacao() {
+        throw new NotImplementedException("Implement this first!");
+    }
 }

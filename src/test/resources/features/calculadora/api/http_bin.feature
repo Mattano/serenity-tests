@@ -10,3 +10,9 @@ Funcionalidade: Testar Biblioteca REST do Serenity no httpbin.org
     E o corpo da resposta deve conter os seguintes valores:
       | origin   | 191.136.99.196        |
       | url   | http://httpbin.org/get |
+
+
+  Cenario: Autenticacao
+    Dado um usuario autenticado
+    Quando eu acesso um recurso protegido
+    Entao obtenho autorizacao pelo sistema de autenticacao
