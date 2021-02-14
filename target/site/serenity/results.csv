@@ -1,3 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Testar Biblioteca REST do Serenity no httpbin.org","Validar resposta GET","SUCCESS","2021-02-07T20:49:32.631-03:00[America/Sao_Paulo]","0.0","2.49"
-"Soma",": Deve ser capaz de realizar operacoes de soma com dois numeros","ERROR","2021-02-07T20:49:32.657-03:00[America/Sao_Paulo]","0.0","0.29"
+"Testar Biblioteca REST do Serenity no httpbin.org","Validar resposta GET","SUCCESS","2021-02-14T15:18:12.084-03:00[America/Sao_Paulo]","0.0","2.96"
+"Soma",": Deve ser capaz de realizar operacoes de soma com dois numeros","ERROR","2021-02-14T15:18:12.099-03:00[America/Sao_Paulo]","0.0","0.42"
+"Environments",": Deve ser capaz de ler as variaveis de ambiente","SUCCESS","2021-02-14T15:18:12.094-03:00[America/Sao_Paulo]","0.0","0.52"

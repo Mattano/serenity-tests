@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="Soma" skipped="0" tests="4" time="0.29" timestamp="2021-02-07 08:49:32"><testcase name=": Deve ser capaz de realizar operacoes de soma com dois numeros"><error message="" type="net.thucydides.core.annotations.NotImplementedException"/><system-err>
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="4" failures="0" name="Soma" skipped="0" tests="4" time="0.42" timestamp="2021-02-14 03:18:12"><testcase name=": Deve ser capaz de realizar operacoes de soma com dois numeros"><error message="" type="net.thucydides.core.annotations.NotImplementedException"/><system-err>
 functional.stepdef.calculadora.soma.SomaStepDef.que_o_usuario_deseja_realizar_uma_operacao_de_soma(SomaStepDef.java:15)
 ✽.que o usuario deseja realizar uma operacao de soma(classpath:features/calculadora/soma_subtracao/soma.feature:8)
 </system-err></testcase></testsuite>

@@ -1,7 +1,11 @@
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/featureRunner/calculadora/soma_subtracao/SomaIT.java
+/home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/stepdef/serenity/SerenityStepDef.java
+/home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/steps/SerenityUtil.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/dto/JsonDto.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/dto/HttpBinDto.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/stepdef/calculadora/api/HttpBinStepDef.java
+/home/gabriel/IdeaProjects/serenity-tests/src/test/java/unit/br/com/gabriel/serenity/EnviromentTest.java
+/home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/featureRunner/serenity/SerenityIT.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/steps/ApiSteps.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/functional/featureRunner/calculadora/api/HttpBinIT.java
 /home/gabriel/IdeaProjects/serenity-tests/src/test/java/unit/br/com/gabriel/math/SimpleCalcsTest.java
