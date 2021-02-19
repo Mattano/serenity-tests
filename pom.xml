@@ -95,8 +95,12 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>3.0.0-M4</version>
                 <configuration>
-                    <skip>true</skip>
+                    <skip>false</skip>
+                    <includes>
+                        <include>unit/**/*Test.java</include>
+                    </includes>
                 </configuration>
+
             </plugin>
 
 
@@ -106,7 +110,7 @@
                 <version>3.0.0-M4</version>
                 <configuration>
                     <includes>
-                        <include>**/*IT.java</include>
+                        <include>functional/**/*IT.java</include>
                     </includes>
                     <systemPropertyVariables>
                         <webdriver.base.url>${webdriver.base.url}</webdriver.base.url>

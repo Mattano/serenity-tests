@@ -5,8 +5,8 @@ unit/br/com/gabriel/math/SimpleCalcsTest.class
 functional/stepdef/calculadora/soma/SomaStepDef.class
 functional/featureRunner/serenity/SerenityIT.class
 functional/featureRunner/calculadora/soma_subtracao/SomaIT.class
-unit/br/com/gabriel/serenity/EnviromentTest.class
 dto/JsonDto.class
+unit/br/com/gabriel/serenity/EnviromentSerenity.class
 functional/steps/SerenityUtil.class
 functional/steps/ApiSteps.class
 functional/stepdef/calculadora/api/HttpBinStepDef.class
